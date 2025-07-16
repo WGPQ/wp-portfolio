@@ -13,6 +13,7 @@ const page = () => {
               height={600}
               className="rounded-lg w-full max-w-[250px] sm:max-w-[300px] md:max-w-md lg:max-w-lg mx-auto lg:mx-0"
               priority
+              draggable={false}
             />
           </div>
           <div className="order-2 lg:order-2 space-y-8 w-full">

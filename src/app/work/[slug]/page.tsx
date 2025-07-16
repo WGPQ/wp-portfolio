@@ -94,6 +94,7 @@ export default function WorkDetails() {
               alt={project!.title}
               height={600}
               width={800}
+              draggable={false}
               className="rounded-2xl object-scale-down w-full h-full aspect-auto"
             />
           </div>
