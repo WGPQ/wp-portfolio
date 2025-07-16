@@ -35,6 +35,7 @@ const WorkPage = () => {
                     width={600}
                     className="rounded-2xl object-scale-down w-full h-full aspect-auto"
                     draggable={false}
+                    priority
                     // whileHover={{
                     //   scale: 1.1,
                     // }}

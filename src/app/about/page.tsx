@@ -6,9 +6,7 @@ const page = () => {
      <div className="min-h-scree text-white p-6 md:p-12">
       <div className="max-w-4xl mx-auto">
 
-        {/* Profile Section */}
         <div className="flex flex-col md:flex-row items-start gap-8 mb-12">
-          {/* Profile Image */}
           <div className="relative">
             <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-slate-700">
               <Image
@@ -17,6 +15,8 @@ const page = () => {
                 width={128}
                 height={128}
                 className="w-full h-full object-cover"
+                draggable={false}
+                priority
               />
             </div>
             {/* Location Badge */}

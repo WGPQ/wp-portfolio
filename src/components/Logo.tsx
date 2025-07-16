@@ -9,6 +9,7 @@ const Logo = () => {
         className="object-contain"
         alt="Arrow"
         priority
+        draggable={false}
       />
     </div>
   )
