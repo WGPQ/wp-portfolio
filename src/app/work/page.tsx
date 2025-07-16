@@ -26,7 +26,7 @@ const WorkPage = () => {
           {projects.map((project, index) => {
             const urlProject = project.title.toLowerCase().replace(/\s+/g, '-');
             return (
-              <div key={index} className="bg-[#1e1d1c] rounded-3xl p-8">
+              <div key={index} className="bg-[#1e1d1c] rounded-3xl p-6">
                 <div className="bg-gray-100 rounded-2xl mb-6 shadow-lg">
                   <FramerImage
                     src={project.image}

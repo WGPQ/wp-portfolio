@@ -1,7 +1,16 @@
+import Image from "next/image"
 
 const Logo = () => {
   return (
-    <img src="/WHfDTf01.svg" className="w-40 h-15" alt="Arrow" />
+    <div className="relative w-16 h-12 sm:w-20 sm:h-14">
+      <Image
+        src="/logo-w.svg"
+        fill
+        className="object-contain"
+        alt="Arrow"
+        priority
+      />
+    </div>
   )
 }
 
