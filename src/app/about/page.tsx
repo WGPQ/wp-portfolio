@@ -4,7 +4,7 @@ import { experiences } from '../experience';
 
 const page = () => {
   return (
-    <div className="min-h-scree text-white p-6 md:p-12">
+    <div className="min-h-scree bg-[#121212] text-white p-6 md:p-12">
       <div className="max-w-4xl mx-auto">
 
         <div className="flex flex-col md:flex-row items-start gap-8 mb-12">

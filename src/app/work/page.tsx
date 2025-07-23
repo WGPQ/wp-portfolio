@@ -14,7 +14,7 @@ const WorkPage = () => {
     setProject(project);
   };
   return (
-    <div className="min-h-screen p-8">
+    <div className="min-h-screen p-8 bg-[#121212]">
       <div className="text-center max-w-6xl mx-auto">
         <AnimatedTextReveal />
       </div>

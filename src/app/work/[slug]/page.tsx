@@ -24,7 +24,7 @@ export default function WorkDetails() {
   if (!project) return notFound();
 
   return (
-    <div className="min-h-screen text-white py-12 px-4 md:px-8 lg:px-16 flex flex-col items-center">
+    <div className="min-h-screen bg-[#121212] text-white py-12 px-4 md:px-8 lg:px-16 flex flex-col items-center">
       <div className="absolute top-4 left-4 md:top-20 md:left-20">
         <Link
           href="/work"

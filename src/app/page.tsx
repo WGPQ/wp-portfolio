@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const page = () => {
   return (
-    <div className="min-h-screen text-white">
+    <div className="min-h-screen bg-[#121212] text-white">
       <div className="container mx-auto px-6 py-16 lg:py-24">
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-6xl mx-auto">
           <div className="order-1 lg:order-1 w-full">
