@@ -10,7 +10,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   { name: 'Inicio', href: '/', },
   { name: 'Sobre mí', href: '/about', },
-  { name: 'Mis Trabajos', href: '/work', },
+  { name: 'Proyectos', href: '/work', },
   // { name: 'Blog', href: '/blog', },
 ];
 const Navbar = () => {
@@ -25,7 +25,7 @@ const Navbar = () => {
           <OClock />
         </span>
 
-        <div className="hidden md:flex group relative h-12 w-48 hover:w-[400px] transition-all duration-300 ease-in-out bg-[#121212] border border-gray-700 rounded-full shadow-lg overflow-hidden items-center px-4">
+        <div className="hidden md:flex group relative h-12 w-48 hover:w-[500px] transition-all duration-300 ease-in-out bg-[#121212] border border-gray-700 rounded-full shadow-lg overflow-hidden items-center px-4">
           <div className="shrink-0">
             <CubeIcon className="h-7 w-9 text-gray-500 group-hover:text-white transition-colors duration-300" />
           </div>
