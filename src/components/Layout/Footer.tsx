@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="text-center text-sm">
           <span>&copy; {new Date().getFullYear()}&nbsp;</span>
-          Built<span className="text-2xl px-1"></span>
-          by&nbsp;
+          Construido<span className="text-2xl px-1"></span>
+          por&nbsp;
           <Link href="/" className="underline hover:no-underline transition-all duration-200">
             William Puma
           </Link>

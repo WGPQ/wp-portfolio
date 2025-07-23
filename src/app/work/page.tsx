@@ -55,7 +55,7 @@ const WorkPage = () => {
                     onClick={() => handleProjectClick(project)}
                     className="bg-white text-black hover:bg-gray-100 font-medium px-8 py-3 rounded-xl"
                   >
-                    View Project
+                    Ver Projecto
                   </Link>
                 </div>
               </div>

@@ -18,15 +18,15 @@ const page = () => {
           </div>
           <div className="order-2 lg:order-2 space-y-8 w-full">
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white">Hey, I'm William</h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white">Hola, Soy William</h1>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-blue-400">
-                I Build Interactive and Modern Web Experiences.
+                Construyo experiencias web interactivas y modernas.
               </h2>
             </div>
             <p className="text-gray-300 text-lg md:text-xl leading-relaxed max-w-2xl text-justify">
-              I'm a front-end developer passionate about building dynamic and user-friendly web experiences.
-              With a sharp eye for design and a solid foundation in both front-end and back-end technologies,
-              I've had the opportunity to collaborate with U.S.-based companies on innovative digital projects.
+              Soy un desarrollador front-end apasionado por crear experiencias web dinámicas y fáciles de usar.
+              Con un agudo sentido del diseño y una sólida base tanto en tecnologías front-end como back-end,
+              he tenido la oportunidad de colaborar con empresas de Estados Unidos en proyectos digitales innovadores..
             </p>
           </div>
         </div>

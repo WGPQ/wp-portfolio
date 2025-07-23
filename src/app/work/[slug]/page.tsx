@@ -40,32 +40,40 @@ export default function WorkDetails() {
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12 max-w-7xl w-full">
         <div className="flex-1 space-y-6 text-center lg:text-left">
           <h2 className="text-3xl md:text-4xl font-bold leading-tight">
-            Unlocking The Power Of Gatsby V5+ & NetlifyCMS With Clay Theme.
+            {project?.slogan && project.slogan}
           </h2>
-          <p className="text-blue-400 text-lg font-medium">Content | Web Design | UX/UI | Development</p>
+          {/* <p className="text-blue-400 text-lg font-medium">Content | Web Design | UX/UI | Development</p> */}
           <p className="text-lg leading-relaxed text-zinc-300">
-            I am thrilled to share some exciting news with the web development community! I have recently launched a
-            cutting-edge Gatsby Framework Template called Clay, meticulously crafted to seamlessly integrate with
-            Netlify CMS, providing an effortless and efficient solution for content management in the realm of web
-            development.
+            {project?.summary}
+            {project?.importantPoints && project.importantPoints.length > 0 && (
+              <>
+                <p>Puntos importantes de {project.title} es:</p>
+                <ul className="list-disc list-inside mt-4 space-y-2">
+                  {project.importantPoints.map((point, index) => (
+                    <li key={index} className="text-zinc-300">
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
           </p>
           <h3 className="text-2xl md:text-3xl font-bold leading-tight pt-4">
-            Unleashing The Power Of Gatsby Framework
+            El Ciclo de Vida y Desarrollo {project?.acronimon && `de ${project.acronimon}`}
           </h3>
           <p className="text-lg leading-relaxed text-zinc-300">
-            At the heart of Clay lies the robust Gatsby Framework. This innovative framework empowers developers to
-            leverage the latest web technologies, including React, GraphQL, and Webpack. The outcome is nothing short of
-            exceptional—Clay delivers lightning-fast, highly optimized websites, waving goodbye to the era of slow load
-            times and ushering in an age of unparalleled performance.
+            {project?.aboutBuilding && project.aboutBuilding}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-6 justify-center lg:justify-start">
-            <button
+            {project.link && <Link
+              href={project?.link || "#"}
+              target="_blank"
               className="bg-zinc-900 text-white border-white hover:bg-zinc-800 px-8 py-6 text-lg rounded-lg"
             >
-              Visit Demo
-            </button>
-            <button
+              Visitar Demo
+            </Link>}
+            {/* <button
               className="bg-zinc-900 text-white border-white hover:bg-zinc-800 px-8 py-6 text-lg rounded-lg"
             >
               View Code
@@ -75,7 +83,7 @@ export default function WorkDetails() {
             >
               <Link href="#" aria-label="GitHub">
                 Github
-                {/* <Github className="w-8 h-8" /> */}
+                <Github className="w-8 h-8" />
               </Link>
             </button>
             <button
@@ -84,7 +92,7 @@ export default function WorkDetails() {
               <Link href="#" aria-label="Dev.to">
                 <DevToIcon className="w-8 h-8" />
               </Link>
-            </button>
+            </button>*/}
           </div>
         </div>
         <div className="flex-1 flex justify-center lg:justify-end">
