@@ -8,9 +8,9 @@ interface NavItem {
   href: string;
 }
 const navItems: NavItem[] = [
-  { name: 'Home', href: '/', },
-  { name: 'About', href: '/about', },
-  { name: 'Work', href: '/work', },
+  { name: 'Inicio', href: '/', },
+  { name: 'Sobre mí', href: '/about', },
+  { name: 'Mis Trabajos', href: '/work', },
   // { name: 'Blog', href: '/blog', },
 ];
 const Navbar = () => {
