@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Project, projects } from "../projects";
 import { useAppStore } from "@/store/appStore";
 import { motion } from "framer-motion";
+import AnimatedTextReveal from "@/components/Animated-text-reveal";
 
 const WorkPage = () => {
   const FramerImage = motion(Image);
@@ -15,11 +16,7 @@ const WorkPage = () => {
   return (
     <div className="min-h-screen p-8">
       <div className="text-center max-w-6xl mx-auto">
-        <h1 className="text-white font-bold leading-tight mb-20">
-          <span className="block text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-6xl">
-            Creativity Changes Everything ✨
-          </span>
-        </h1>
+        <AnimatedTextReveal />
       </div>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -36,13 +33,13 @@ const WorkPage = () => {
                     className="rounded-2xl object-scale-down w-full h-full aspect-auto"
                     draggable={false}
                     priority
-                    // whileHover={{
-                    //   scale: 1.1,
-                    // }}
-                    // whileTap={{ scale: 0.9 }}
-                    // initial={{ opacity: 0, y: -20 }}
-                    // animate={{ opacity: 1, y: 0 }}
-                    // transition={{ delay: 0.1 }}
+                  // whileHover={{
+                  //   scale: 1.1,
+                  // }}
+                  // whileTap={{ scale: 0.9 }}
+                  // initial={{ opacity: 0, y: -20 }}
+                  // animate={{ opacity: 1, y: 0 }}
+                  // transition={{ delay: 0.1 }}
                   />
                 </div>
                 <div className="space-y-4">
