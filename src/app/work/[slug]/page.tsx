@@ -32,7 +32,7 @@ export default function WorkDetails() {
           className="bg-zinc-900 text-white border border-white hover:bg-zinc-800 px-4 py-2 rounded-lg flex items-center gap-2"
         >
           <ArrowLeftIcon className="w-5 h-5" />
-          <span className="hidden md:inline">Back</span>
+          <span className="hidden md:inline">Atrás</span>
         </Link>
       </div>
       <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-16 text-center">{project?.title || "Unknown Project"}</h1>
