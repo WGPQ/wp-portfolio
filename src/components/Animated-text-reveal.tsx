@@ -13,7 +13,7 @@ export default function AnimatedTextReveal() {
 
   useEffect(() => {
     if (textRef.current) {
-      setTextWidth(textRef.current.scrollWidth) // Medición más confiable
+      setTextWidth(textRef.current.scrollWidth)
     }
 
     const animation = animate(progress, 1, {
@@ -32,9 +32,8 @@ export default function AnimatedTextReveal() {
           className="text-white text-center text-3xl sm:text-4xl lg:text-6xl font-bold break-words leading-tight"
           style={{ clipPath }}
         >
-          {/* Puedes forzar el salto de línea así si deseas */}
-          <span className="block sm:inline">Creativity Changes</span>{" "}
-          <span className="block sm:inline">Everything</span>
+          <span className="block sm:inline">La creatividad cambia </span>{" "}
+          <span className="block sm:inline">todo</span>
         </motion.div>
         <motion.span
           className="absolute top-1/2 -translate-y-1/2 text-2xl md:text-6xl lg:text-4xl"
