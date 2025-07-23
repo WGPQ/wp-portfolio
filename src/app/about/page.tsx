@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { CodeBracketIcon, PaperAirplaneIcon, LinkIcon } from "@heroicons/react/24/outline";
+import { CodeBracketIcon, PaperAirplaneIcon, LinkIcon, DocumentIcon } from "@heroicons/react/24/outline";
 import { experiences } from '../experience';
 
 const page = () => {
@@ -72,7 +72,15 @@ const page = () => {
                 className="bg-transparent border-slate-600 text-white hover:bg-slate-800 rounded-full px-4 py-2 flex items-center gap-2"
               >
                 <PaperAirplaneIcon className="w-4 h-4" />
-                Email
+                Correo
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1WzffkXzwb21jtetD1GpwyJp6iqS4Nfwn/view?usp=sharing"
+                target="_blank"
+                className="bg-transparent border-slate-600 text-white hover:bg-slate-800 rounded-full px-4 py-2 flex items-center gap-2"
+              >
+                <DocumentIcon className="w-4 h-4" />
+                Hoja de vida
               </a>
             </div>
 
