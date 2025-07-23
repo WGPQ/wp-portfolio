@@ -67,20 +67,21 @@ const page = () => {
                 <LinkIcon className="w-4 h-4" />
                 LinkedIn
               </a>
-              <a
+                <a
                 href="mailto:dwilgeo95@gmail.com?subject=Hola&body=Me%20gustaría%20contactarte"
-                className="bg-transparent border-slate-600 text-white hover:bg-slate-800 rounded-full px-4 py-2 flex items-center gap-2"
-              >
+                className="hidden md:flex bg-transparent border-slate-600 text-white hover:bg-slate-800 rounded-full px-4 py-2 items-center gap-2"
+                >
                 <PaperAirplaneIcon className="w-4 h-4" />
                 Correo
-              </a>
+                </a>
               <a
                 href="https://drive.google.com/file/d/1WzffkXzwb21jtetD1GpwyJp6iqS4Nfwn/view?usp=sharing"
                 target="_blank"
                 className="bg-transparent border-slate-600 text-white hover:bg-slate-800 rounded-full px-4 py-2 flex items-center gap-2"
               >
                 <DocumentIcon className="w-4 h-4" />
-                Hoja de vida
+                <span className="block md:hidden">CV</span>
+                <span className="hidden md:block">Hoja de vida</span>
               </a>
             </div>
 
