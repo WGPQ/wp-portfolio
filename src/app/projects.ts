@@ -43,7 +43,7 @@ export const projects: Project[] = [
     acronimon: "Borondo",
     image: "/images/borondo.png",
     technologies: ["Flutter", "Bloc", "Mapbox", "Stripe"],
-    link: "https://borondo-app.com",
+    link: "https://apps.apple.com/ec/app/borondo/id6738840458", //"https://borondo-app.com",
     slogan: "Mejora tu experiencia turística con rutas de verdadero interés.",
     summary: `Borondo es una aplicación móvil que permite a los usuarios descubrir y explorar rutas turísticas personalizadas
      basadas en sus intereses y preferencias. Utilizando tecnología avanzada de mapeo y geolocalización, Borondo ofrece
