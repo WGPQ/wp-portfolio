@@ -17,7 +17,7 @@ export const en = {
   skills: { eyebrow: "Capabilities", title: "Tech Stack", groups: [{ category: "Languages", items: ["JavaScript", "TypeScript", "Dart"] }, { category: "Frontend", items: ["React", "Angular", "HTML5", "CSS3", "Tailwind CSS", "Material UI"] }, { category: "Mobile", items: ["Flutter"] }, { category: "APIs & Integrations", items: ["REST APIs", "GraphQL", "OAuth", "Google Services", "Stripe", "Twilio", "CardConnect"] }, { category: "Platform", items: ["Push Notifications", "iOS Services", "Mapbox", "WebSockets"] }, { category: "Quality & Tools", items: ["SEO", "Accessibility", "Jest", "Mocha", "Git", "GitHub", "Bitbucket"] }] },
   contact: { eyebrow: "Contact", title: "Let's build something great.", description: "I'm open to new opportunities and collaborations in web and mobile development.", getInTouch: "Get in touch", whatsapp: "Contact me on WhatsApp", whatsappMessage: "Hello William, I visited your portfolio and I'd like to get in touch with you.", whatsappAriaLabel: "Contact William on WhatsApp" },
   footer: { rights: "All rights reserved.", backToTop: "Back to top" },
-  common: { opensNewTab: "opens in a new tab", english: "English", spanish: "Español", language: "Language", home: "William Puma, home", portraitAlt: "William Puma, Software Developer", projectImageAlt: "project interface" },
+  common: { opensNewTab: "opens in a new tab", english: "English", spanish: "Español", language: "Language", home: "William Puma, home", portraitAlt: "William Puma, Software Engineer", projectImageAlt: "project interface" },
 } as const;
 
 type DeepStringify<T> = T extends string ? string : T extends readonly (infer Item)[] ? readonly DeepStringify<Item>[] : T extends object ? { readonly [K in keyof T]: DeepStringify<T[K]> } : T;

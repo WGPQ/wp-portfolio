@@ -1,6 +1,6 @@
 # William Puma — Portfolio
 
-Personal portfolio for William Puma, a Software Developer focused on web and mobile products.
+Personal portfolio for William Puma, a Software Engineer focused on web and mobile products.
 
 ## Stack
 
