@@ -7,7 +7,7 @@ const Logo = () => {
         src="/logo-w.svg"
         fill
         className="object-contain"
-        alt="Arrow"
+        alt="William Puma"
         priority
         draggable={false}
       />

@@ -1,20 +1,5 @@
-import Link from "next/link"
+import type { Dictionary } from "@/locales/en";
 
-const Footer = () => {
-  return (
-    <footer className="bg-[#121212] text-white pt-4 pb-20">
-      <div className="container mx-auto px-4">
-        <div className="text-center text-sm">
-          <span>&copy; {new Date().getFullYear()}&nbsp;</span>
-          Construido<span className="text-2xl px-1"></span>
-          por&nbsp;
-          <Link href="/" className="underline hover:no-underline transition-all duration-200">
-            William Puma
-          </Link>
-        </div>
-      </div>
-    </footer>
-  )
+export default function Footer({ dictionary: t }: { dictionary: Dictionary }) {
+  return <footer className="border-t border-white/10 bg-[#0b1020] py-8 text-sm text-slate-400"><div className="mx-auto flex max-w-6xl flex-col justify-between gap-3 px-5 sm:flex-row sm:px-6"><p>© {new Date().getFullYear()} William Puma. {t.footer.rights}</p><a href="#top" className="transition hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan-300">{t.footer.backToTop}</a></div></footer>;
 }
-
-export default Footer

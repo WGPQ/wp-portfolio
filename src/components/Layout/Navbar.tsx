@@ -1,54 +1,30 @@
-import { SignalIcon, CubeIcon } from "@heroicons/react/24/outline";
+"use client";
+
+import { ArrowDownTrayIcon, Bars3Icon, ChevronDownIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import type { Dictionary } from "@/locales/en";
+import type { Locale } from "@/locales";
 import Logo from "../Logo";
-import Link from "next/link";
-import OClock from "../OClock";
 
-interface NavItem {
-  name: string;
-  href: string;
+interface NavbarProps { locale: Locale; dictionary: Dictionary; cvUrl: string; }
+
+export default function Navbar({ locale, dictionary: t, cvUrl }: NavbarProps) {
+  const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
+  const navItems = [{ name: t.nav.about, href: "#about" }, { name: t.nav.experience, href: "#experience" }, { name: t.nav.projects, href: "#projects" }, { name: t.nav.skills, href: "#skills" }, { name: t.nav.contact, href: "#contact" }];
+  const switchLocale = (nextLocale: Locale) => { localStorage.setItem("portfolio-locale", nextLocale); router.push(`${nextLocale === "es" ? "/es" : "/"}${window.location.hash}`); setIsOpen(false); };
+
+  useEffect(() => { const savedLocale = localStorage.getItem("portfolio-locale") as Locale | null; if (savedLocale && savedLocale !== locale) router.replace(`${savedLocale === "es" ? "/es" : "/"}${window.location.hash}`); }, [locale, pathname, router]);
+
+  return <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#0b1020]/90 backdrop-blur-lg"><nav aria-label="Primary navigation" className="mx-auto flex h-18 max-w-6xl items-center justify-between px-5 sm:px-6">
+    <a href="#top" aria-label={t.common.home} onClick={() => setIsOpen(false)} className="rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan-300"><Logo /></a>
+    <div className="hidden items-center gap-5 lg:flex">{navItems.map((item) => <a key={item.href} href={item.href} className="text-sm font-medium text-slate-300 transition hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan-300">{item.name}</a>)}<a href="https://github.com/WGPQ/" target="_blank" rel="noreferrer" className="text-sm font-medium text-slate-300 transition hover:text-white">GitHub</a><a href="https://www.linkedin.com/in/william-puma-dev/" target="_blank" rel="noreferrer" className="text-sm font-medium text-slate-300 transition hover:text-white">LinkedIn</a><LanguageSelect locale={locale} t={t} onChange={switchLocale} /><a href={cvUrl} download className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-200"><ArrowDownTrayIcon className="size-4" aria-hidden="true" /> {t.nav.downloadCv}</a></div>
+    <button type="button" aria-label={isOpen ? t.nav.closeMenu : t.nav.openMenu} aria-expanded={isOpen} onClick={() => setIsOpen((open) => !open)} className="rounded-md p-2 text-white transition hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan-300 lg:hidden">{isOpen ? <XMarkIcon className="size-6" /> : <Bars3Icon className="size-6" />}</button>
+  </nav>{isOpen && <div className="border-t border-white/10 bg-[#0b1020] px-5 py-5 lg:hidden"><div className="mx-auto flex max-w-6xl flex-col gap-1">{navItems.map((item) => <a key={item.href} href={item.href} onClick={() => setIsOpen(false)} className="rounded-md px-3 py-3 font-medium text-slate-200 transition hover:bg-white/10">{item.name}</a>)}<div className="mt-3 flex flex-wrap items-center gap-3 border-t border-white/10 pt-4"><LanguageSelect locale={locale} t={t} onChange={switchLocale} /><a href="https://github.com/WGPQ/" target="_blank" rel="noreferrer" className="rounded-full border border-white/15 px-4 py-2 text-sm font-semibold text-white">GitHub</a><a href="https://www.linkedin.com/in/william-puma-dev/" target="_blank" rel="noreferrer" className="rounded-full border border-white/15 px-4 py-2 text-sm font-semibold text-white">LinkedIn</a><a href={cvUrl} download className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-950"><ArrowDownTrayIcon className="size-4" /> {t.nav.downloadCv}</a></div></div></div>}</header>;
 }
-const navItems: NavItem[] = [
-  { name: 'Inicio', href: '/', },
-  { name: 'Sobre mí', href: '/about', },
-  { name: 'Proyectos', href: '/work', },
-  // { name: 'Blog', href: '/blog', },
-];
-const Navbar = () => {
-  return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-[#121212] flex justify-center h-17 w-full px-2 sm:px-4 lg:px-0 shadow-md">
-      <div className="relative w-full max-w-7xl mx-auto flex items-center justify-center">
-        <span className="absolute left-2 sm:left-4 md:left-6 lg:left-8 top-1/2 -translate-y-1/2 text-white whitespace-nowrap">
-          <Logo />
-        </span>
 
-        <span className="absolute right-2 sm:right-4 md:right-6 lg:right-8 top-1/2 -translate-y-1/2 text-white whitespace-nowrap">
-          <OClock />
-        </span>
-
-        <div className="hidden md:flex group relative h-12 w-48 hover:w-[500px] transition-all duration-300 ease-in-out bg-[#121212] border border-gray-700 rounded-full shadow-lg overflow-hidden items-center px-4">
-          <div className="shrink-0">
-            <CubeIcon className="h-7 w-9 text-gray-500 group-hover:text-white transition-colors duration-300" />
-          </div>
-
-          <ul className="absolute left-1/2 -translate-x-1/2 flex space-x-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="text-white cursor-pointer hover:underline"
-              >
-                {item.name}
-              </Link>
-            ))}
-          </ul>
-
-          <div className="ml-auto shrink-0">
-            <SignalIcon className="h-7 w-9 text-gray-500 group-hover:text-white transition-colors duration-300" />
-          </div>
-        </div>
-
-      </div>
-    </div>
-  );
-};
-export default Navbar;
+function LanguageSelect({ locale, t, onChange }: { locale: Locale; t: Dictionary; onChange: (locale: Locale) => void }) {
+  return <label className="relative inline-flex items-center rounded-full border border-white/15 bg-white/5 text-sm font-semibold text-white"><span className="sr-only">{t.common.language}</span><select aria-label={t.common.language} value={locale} onChange={(event) => onChange(event.target.value as Locale)} className="appearance-none bg-transparent py-2 pl-3 pr-8 outline-none"><option value="en">EN</option><option value="es">ES</option></select><ChevronDownIcon className="pointer-events-none absolute right-2 size-4" aria-hidden="true" /></label>;
+}
