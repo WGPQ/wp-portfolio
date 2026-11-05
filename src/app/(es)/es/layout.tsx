@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   description: "Ingeniero de Software especializado en aplicaciones web y móviles utilizando Flutter, React, Angular y TypeScript.",
   alternates: { canonical: "/es", languages: { en: "/", es: "/es", "x-default": "/" } },
   authors: [{ name: "William Puma", url: "https://williampuma.dev" }],
-  openGraph: { type: "website", url: "/es", title: "William Puma | Ingeniero de Software - Web & Mobile", description: "Ingeniero de Software especializado en aplicaciones web y móviles utilizando Flutter, React, Angular y TypeScript.", siteName: "William Puma", locale: "es_ES", images: [{ url: "https://williampuma.dev/images/william-social.jpg", secureUrl: "https://williampuma.dev/images/william-social.jpg", type: "image/jpeg", width: 800, height: 800, alt: "William Puma, Ingeniero de Software" }] },
-  twitter: { card: "summary_large_image", title: "William Puma | Ingeniero de Software - Web & Mobile", description: "Ingeniero de Software especializado en aplicaciones web y móviles utilizando Flutter, React, Angular y TypeScript.", images: ["https://williampuma.dev/images/william-social.jpg"] },
+  openGraph: { type: "website", url: "/es", title: "William Puma | Ingeniero de Software - Web & Mobile", description: "Ingeniero de Software especializado en aplicaciones web y móviles utilizando Flutter, React, Angular y TypeScript.", siteName: "William Puma", locale: "es_ES", images: [{ url: "https://williampuma.dev/images/logo-social.jpg", secureUrl: "https://williampuma.dev/images/logo-social.jpg", type: "image/jpeg", width: 800, height: 800, alt: "William Puma — Logo W" }] },
+  twitter: { card: "summary_large_image", title: "William Puma | Ingeniero de Software - Web & Mobile", description: "Ingeniero de Software especializado en aplicaciones web y móviles utilizando Flutter, React, Angular y TypeScript.", images: ["https://williampuma.dev/images/logo-social.jpg"] },
   icons: { icon: "/favicon.ico" },
   robots: { index: true, follow: true },
 };
