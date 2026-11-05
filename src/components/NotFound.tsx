@@ -32,7 +32,7 @@ export default function NotFound({ locale }: { locale: Locale }) {
       </nav>
     </header>
     <main id="top" className="relative isolate flex flex-1 items-center justify-center overflow-hidden px-5 py-16 sm:px-6 sm:py-24">
-      <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,_rgba(14,165,233,0.12),_transparent_65%)]" />
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,rgba(14,165,233,0.12),transparent_65%)]" />
       <div className="w-full max-w-2xl text-center">
         <p className="section-kicker">{t.label}</p>
         <div aria-hidden="true" className="relative mx-auto mt-6 w-fit select-none">
