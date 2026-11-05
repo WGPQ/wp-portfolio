@@ -7,3 +7,9 @@ body { margin: 0; background: var(--background); color: var(--foreground); font-
 .section-kicker { color: #a5f3fc; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; }
 .section-title { margin-top: 0.75rem; color: #fff; font-size: clamp(2rem, 5vw, 3rem); font-weight: 600; letter-spacing: -0.04em; line-height: 1.1; }
 @media (prefers-reduced-motion: reduce) { *, ::before, ::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; } }
+
+/* Keyboard-only affordances preserve the default visual design. */
+:where(a, button, select):focus-visible { outline: 2px solid #67e8f9; outline-offset: 4px; }
+#top { scroll-margin-top: 4.5rem; }
+.skip-link { position: fixed; top: 0.75rem; left: 1rem; z-index: 100; transform: translateY(-200%); border-radius: 9999px; background: #67e8f9; color: #0b1020; padding: 0.75rem 1.25rem; font-weight: 600; }
+.skip-link:focus { transform: translateY(0); }

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "borondo",
+    "originalBytes": 1596676,
+    "optimizedBytes": 750586,
+    "width": 2996,
+    "height": 1660,
+    "pixelsIdentical": true
+  },
+  {
+    "name": "sp_members_portal",
+    "originalBytes": 592906,
+    "optimizedBytes": 195082,
+    "width": 2990,
+    "height": 1658,
+    "pixelsIdentical": true
+  },
+  {
+    "name": "simplified_practice",
+    "originalBytes": 525517,
+    "optimizedBytes": 205824,
+    "width": 1471,
+    "height": 954,
+    "pixelsIdentical": true
+  }
+]

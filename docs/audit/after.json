@@ -1,0 +1,538 @@
+[
+  {
+    "locale": "en",
+    "device": "desktop",
+    "violations": [],
+    "layout": {
+      "overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "William Puma"
+        },
+        {
+          "tag": "H2",
+          "text": "About me"
+        },
+        {
+          "tag": "H2",
+          "text": "Professional Experience"
+        },
+        {
+          "tag": "H3",
+          "text": "SPORTYEAH"
+        },
+        {
+          "tag": "H3",
+          "text": "TRECE SOFTWARE"
+        },
+        {
+          "tag": "H3",
+          "text": "SIMPLIFIED PRACTICE"
+        },
+        {
+          "tag": "H3",
+          "text": "PAYQA"
+        },
+        {
+          "tag": "H2",
+          "text": "Selected Projects"
+        },
+        {
+          "tag": "H3",
+          "text": "Sportyeah"
+        },
+        {
+          "tag": "H3",
+          "text": "Borondo"
+        },
+        {
+          "tag": "H3",
+          "text": "SP Members Portal"
+        },
+        {
+          "tag": "H3",
+          "text": "Simplified Practice Web Platform"
+        },
+        {
+          "tag": "H2",
+          "text": "Tech Stack"
+        },
+        {
+          "tag": "H3",
+          "text": "Languages"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend"
+        },
+        {
+          "tag": "H3",
+          "text": "Mobile"
+        },
+        {
+          "tag": "H3",
+          "text": "APIs & Integrations"
+        },
+        {
+          "tag": "H3",
+          "text": "Platform"
+        },
+        {
+          "tag": "H3",
+          "text": "Quality & Tools"
+        },
+        {
+          "tag": "H2",
+          "text": "Let's build something great."
+        }
+      ],
+      "sections": [
+        {
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 689
+        },
+        {
+          "id": "about",
+          "x": 0,
+          "y": 689,
+          "w": 1440,
+          "h": 456
+        },
+        {
+          "id": "experience",
+          "x": 0,
+          "y": 1145,
+          "w": 1440,
+          "h": 1301
+        },
+        {
+          "id": "projects",
+          "x": 0,
+          "y": 2446,
+          "w": 1440,
+          "h": 1897
+        },
+        {
+          "id": "skills",
+          "x": 0,
+          "y": 4343,
+          "w": 1440,
+          "h": 737
+        },
+        {
+          "id": "contact",
+          "x": 0,
+          "y": 5079,
+          "w": 1440,
+          "h": 614
+        }
+      ]
+    }
+  },
+  {
+    "locale": "en",
+    "device": "mobile",
+    "violations": [],
+    "layout": {
+      "overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "William Puma"
+        },
+        {
+          "tag": "H2",
+          "text": "About me"
+        },
+        {
+          "tag": "H2",
+          "text": "Professional Experience"
+        },
+        {
+          "tag": "H3",
+          "text": "SPORTYEAH"
+        },
+        {
+          "tag": "H3",
+          "text": "TRECE SOFTWARE"
+        },
+        {
+          "tag": "H3",
+          "text": "SIMPLIFIED PRACTICE"
+        },
+        {
+          "tag": "H3",
+          "text": "PAYQA"
+        },
+        {
+          "tag": "H2",
+          "text": "Selected Projects"
+        },
+        {
+          "tag": "H3",
+          "text": "Sportyeah"
+        },
+        {
+          "tag": "H3",
+          "text": "Borondo"
+        },
+        {
+          "tag": "H3",
+          "text": "SP Members Portal"
+        },
+        {
+          "tag": "H3",
+          "text": "Simplified Practice Web Platform"
+        },
+        {
+          "tag": "H2",
+          "text": "Tech Stack"
+        },
+        {
+          "tag": "H3",
+          "text": "Languages"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend"
+        },
+        {
+          "tag": "H3",
+          "text": "Mobile"
+        },
+        {
+          "tag": "H3",
+          "text": "APIs & Integrations"
+        },
+        {
+          "tag": "H3",
+          "text": "Platform"
+        },
+        {
+          "tag": "H3",
+          "text": "Quality & Tools"
+        },
+        {
+          "tag": "H2",
+          "text": "Let's build something great."
+        }
+      ],
+      "sections": [
+        {
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 1081
+        },
+        {
+          "id": "about",
+          "x": 0,
+          "y": 1081,
+          "w": 390,
+          "h": 657
+        },
+        {
+          "id": "experience",
+          "x": 0,
+          "y": 1738,
+          "w": 390,
+          "h": 1587
+        },
+        {
+          "id": "projects",
+          "x": 0,
+          "y": 3325,
+          "w": 390,
+          "h": 3045
+        },
+        {
+          "id": "skills",
+          "x": 0,
+          "y": 6371,
+          "w": 390,
+          "h": 1287
+        },
+        {
+          "id": "contact",
+          "x": 0,
+          "y": 7658,
+          "w": 390,
+          "h": 652
+        }
+      ]
+    }
+  },
+  {
+    "locale": "es",
+    "device": "desktop",
+    "violations": [],
+    "layout": {
+      "overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "William Puma"
+        },
+        {
+          "tag": "H2",
+          "text": "Sobre mí"
+        },
+        {
+          "tag": "H2",
+          "text": "Experiencia profesional"
+        },
+        {
+          "tag": "H3",
+          "text": "SPORTYEAH"
+        },
+        {
+          "tag": "H3",
+          "text": "TRECE SOFTWARE"
+        },
+        {
+          "tag": "H3",
+          "text": "SIMPLIFIED PRACTICE"
+        },
+        {
+          "tag": "H3",
+          "text": "PAYQA"
+        },
+        {
+          "tag": "H2",
+          "text": "Proyectos destacados"
+        },
+        {
+          "tag": "H3",
+          "text": "Sportyeah"
+        },
+        {
+          "tag": "H3",
+          "text": "Borondo"
+        },
+        {
+          "tag": "H3",
+          "text": "SP Members Portal"
+        },
+        {
+          "tag": "H3",
+          "text": "Simplified Practice Web Platform"
+        },
+        {
+          "tag": "H2",
+          "text": "Stack tecnológico"
+        },
+        {
+          "tag": "H3",
+          "text": "Lenguajes"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend"
+        },
+        {
+          "tag": "H3",
+          "text": "Móvil"
+        },
+        {
+          "tag": "H3",
+          "text": "APIs e integraciones"
+        },
+        {
+          "tag": "H3",
+          "text": "Plataforma"
+        },
+        {
+          "tag": "H3",
+          "text": "Calidad y herramientas"
+        },
+        {
+          "tag": "H2",
+          "text": "Construyamos algo increíble."
+        }
+      ],
+      "sections": [
+        {
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 689
+        },
+        {
+          "id": "about",
+          "x": 0,
+          "y": 689,
+          "w": 1440,
+          "h": 488
+        },
+        {
+          "id": "experience",
+          "x": 0,
+          "y": 1177,
+          "w": 1440,
+          "h": 1301
+        },
+        {
+          "id": "projects",
+          "x": 0,
+          "y": 2478,
+          "w": 1440,
+          "h": 1897
+        },
+        {
+          "id": "skills",
+          "x": 0,
+          "y": 4375,
+          "w": 1440,
+          "h": 737
+        },
+        {
+          "id": "contact",
+          "x": 0,
+          "y": 5111,
+          "w": 1440,
+          "h": 614
+        }
+      ]
+    }
+  },
+  {
+    "locale": "es",
+    "device": "mobile",
+    "violations": [],
+    "layout": {
+      "overflow": false,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "William Puma"
+        },
+        {
+          "tag": "H2",
+          "text": "Sobre mí"
+        },
+        {
+          "tag": "H2",
+          "text": "Experiencia profesional"
+        },
+        {
+          "tag": "H3",
+          "text": "SPORTYEAH"
+        },
+        {
+          "tag": "H3",
+          "text": "TRECE SOFTWARE"
+        },
+        {
+          "tag": "H3",
+          "text": "SIMPLIFIED PRACTICE"
+        },
+        {
+          "tag": "H3",
+          "text": "PAYQA"
+        },
+        {
+          "tag": "H2",
+          "text": "Proyectos destacados"
+        },
+        {
+          "tag": "H3",
+          "text": "Sportyeah"
+        },
+        {
+          "tag": "H3",
+          "text": "Borondo"
+        },
+        {
+          "tag": "H3",
+          "text": "SP Members Portal"
+        },
+        {
+          "tag": "H3",
+          "text": "Simplified Practice Web Platform"
+        },
+        {
+          "tag": "H2",
+          "text": "Stack tecnológico"
+        },
+        {
+          "tag": "H3",
+          "text": "Lenguajes"
+        },
+        {
+          "tag": "H3",
+          "text": "Frontend"
+        },
+        {
+          "tag": "H3",
+          "text": "Móvil"
+        },
+        {
+          "tag": "H3",
+          "text": "APIs e integraciones"
+        },
+        {
+          "tag": "H3",
+          "text": "Plataforma"
+        },
+        {
+          "tag": "H3",
+          "text": "Calidad y herramientas"
+        },
+        {
+          "tag": "H2",
+          "text": "Construyamos algo increíble."
+        }
+      ],
+      "sections": [
+        {
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 1113
+        },
+        {
+          "id": "about",
+          "x": 0,
+          "y": 1113,
+          "w": 390,
+          "h": 689
+        },
+        {
+          "id": "experience",
+          "x": 0,
+          "y": 1802,
+          "w": 390,
+          "h": 1635
+        },
+        {
+          "id": "projects",
+          "x": 0,
+          "y": 3437,
+          "w": 390,
+          "h": 3105
+        },
+        {
+          "id": "skills",
+          "x": 0,
+          "y": 6543,
+          "w": 390,
+          "h": 1287
+        },
+        {
+          "id": "contact",
+          "x": 0,
+          "y": 7830,
+          "w": 390,
+          "h": 652
+        }
+      ]
+    }
+  }
+]

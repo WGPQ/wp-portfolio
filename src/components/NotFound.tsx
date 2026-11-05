@@ -4,14 +4,14 @@ import Logo from "./Logo";
 
 const copy = {
   en: {
-    label: "Page not found",
+    label: "Page not found", skip: "Skip to main content",
     title: "A little off the beaten path.",
     description: "This page may have moved, or the link may be incorrect. Let’s get you back to something worth exploring.",
     home: "Back to home", projects: "Explore my projects", contact: "Let’s talk",
     hint: "Good things are still one click away.", rights: "All rights reserved.", navigation: "Navigation",
   },
   es: {
-    label: "Página no encontrada",
+    label: "Página no encontrada", skip: "Saltar al contenido principal",
     title: "Esta ruta se salió del mapa.",
     description: "Puede que la página se haya movido o que el enlace sea incorrecto. Volvamos a algo que vale la pena explorar.",
     home: "Volver al inicio", projects: "Explorar mis proyectos", contact: "Hablemos",
@@ -25,13 +25,14 @@ export default function NotFound({ locale }: { locale: Locale }) {
   const focus = "focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan-300";
 
   return <div className="flex min-h-svh flex-col bg-[#0b1020] text-slate-100">
+    <a href="#top" className="skip-link">{t.skip}</a>
     <header className="border-b border-white/10">
       <nav aria-label={t.navigation} className="mx-auto flex h-18 max-w-6xl items-center justify-between px-5 sm:px-6">
         <a href={home} aria-label={`William Puma — ${t.home}`} className={`rounded-sm ${focus}`}><Logo /></a>
         <a href={`${home}#contact`} className={`inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2 text-sm font-medium text-slate-300 transition hover:border-cyan-200 hover:text-white ${focus}`}>{t.contact}<ArrowUpRightIcon aria-hidden="true" className="size-4" /></a>
       </nav>
     </header>
-    <main id="top" className="relative isolate flex flex-1 items-center justify-center overflow-hidden px-5 py-16 sm:px-6 sm:py-24">
+    <main id="top" tabIndex={-1} className="relative isolate flex flex-1 items-center justify-center overflow-hidden px-5 py-16 sm:px-6 sm:py-24">
       <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,rgba(14,165,233,0.12),transparent_65%)]" />
       <div className="w-full max-w-2xl text-center">
         <p className="section-kicker">{t.label}</p>

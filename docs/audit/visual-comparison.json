@@ -1,0 +1,114 @@
+[
+  {
+    "locale": "en",
+    "device": "desktop",
+    "before": {
+      "format": "raw",
+      "width": 1440,
+      "height": 5778,
+      "channels": 4,
+      "depth": "uchar",
+      "premultiplied": false,
+      "hasAlpha": true,
+      "size": 33281280
+    },
+    "after": {
+      "format": "raw",
+      "width": 1440,
+      "height": 5778,
+      "channels": 4,
+      "depth": "uchar",
+      "premultiplied": false,
+      "hasAlpha": true,
+      "size": 33281280
+    },
+    "identicalSectionGeometry": true,
+    "changedPixels": 125681,
+    "changedPixelPercent": 1.5105308449675012,
+    "maxChannelDelta": 241
+  },
+  {
+    "locale": "en",
+    "device": "mobile",
+    "before": {
+      "format": "raw",
+      "width": 390,
+      "height": 8427,
+      "channels": 4,
+      "depth": "uchar",
+      "premultiplied": false,
+      "hasAlpha": true,
+      "size": 13146120
+    },
+    "after": {
+      "format": "raw",
+      "width": 390,
+      "height": 8427,
+      "channels": 4,
+      "depth": "uchar",
+      "premultiplied": false,
+      "hasAlpha": true,
+      "size": 13146120
+    },
+    "identicalSectionGeometry": true,
+    "changedPixels": 230826,
+    "changedPixelPercent": 7.023395496161605,
+    "maxChannelDelta": 241
+  },
+  {
+    "locale": "es",
+    "device": "desktop",
+    "before": {
+      "format": "raw",
+      "width": 1440,
+      "height": 5810,
+      "channels": 4,
+      "depth": "uchar",
+      "premultiplied": false,
+      "hasAlpha": true,
+      "size": 33465600
+    },
+    "after": {
+      "format": "raw",
+      "width": 1440,
+      "height": 5810,
+      "channels": 4,
+      "depth": "uchar",
+      "premultiplied": false,
+      "hasAlpha": true,
+      "size": 33465600
+    },
+    "identicalSectionGeometry": true,
+    "changedPixels": 135453,
+    "changedPixelPercent": 1.6190117613310384,
+    "maxChannelDelta": 241
+  },
+  {
+    "locale": "es",
+    "device": "mobile",
+    "before": {
+      "format": "raw",
+      "width": 390,
+      "height": 8599,
+      "channels": 4,
+      "depth": "uchar",
+      "premultiplied": false,
+      "hasAlpha": true,
+      "size": 13414440
+    },
+    "after": {
+      "format": "raw",
+      "width": 390,
+      "height": 8599,
+      "channels": 4,
+      "depth": "uchar",
+      "premultiplied": false,
+      "hasAlpha": true,
+      "size": 13414440
+    },
+    "identicalSectionGeometry": true,
+    "changedPixels": 240630,
+    "changedPixelPercent": 7.1752529363879525,
+    "maxChannelDelta": 241
+  }
+]

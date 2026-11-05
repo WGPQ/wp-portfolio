@@ -1,0 +1,340 @@
+{
+  "checks": [
+    "en: URL overrides stored preference; HTTP 200; html lang",
+    "en: canonical, hreflang, OG, Twitter, JSON-LD",
+    "en: all fragment targets exist",
+    "en: heading and main landmarks",
+    "en: keyboard skip link focuses main",
+    "en: language switch preserves section and changes language",
+    "es: URL overrides stored preference; HTTP 200; html lang",
+    "es: canonical, hreflang, OG, Twitter, JSON-LD",
+    "es: all fragment targets exist",
+    "es: heading and main landmarks",
+    "es: keyboard skip link focuses main",
+    "es: language switch preserves section and changes language",
+    "mobile: keyboard open, tab to first link, Escape returns focus",
+    "mobile: section click closes menu, moves focus and clears fixed header",
+    "mobile: leaving navigation closes panel",
+    "mobile: resize closes menu",
+    "mobile: language switch preserves section",
+    "responsive: no page or section overflow at 320, 390, 768, 1024, 1440 px in both languages",
+    "404: HTTP 404, noindex, no homepage canonical, no axe violations",
+    "both CV files: HTTP 200, PDF signature and attachment headers",
+    "social logo: HTTP 200 and image/jpeg",
+    "sitemap: exactly two indexable URLs and reciprocal hreflang",
+    "robots.txt allows crawling and references sitemap",
+    "WhatsApp: both links preserve phone and localized encoded message",
+    "no browser page errors"
+  ],
+  "responsive": [
+    {
+      "path": "/",
+      "width": 320,
+      "page": false,
+      "sections": []
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "page": false,
+      "sections": []
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "page": false,
+      "sections": []
+    },
+    {
+      "path": "/",
+      "width": 1024,
+      "page": false,
+      "sections": []
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "page": false,
+      "sections": []
+    },
+    {
+      "path": "/es",
+      "width": 320,
+      "page": false,
+      "sections": []
+    },
+    {
+      "path": "/es",
+      "width": 390,
+      "page": false,
+      "sections": []
+    },
+    {
+      "path": "/es",
+      "width": 768,
+      "page": false,
+      "sections": []
+    },
+    {
+      "path": "/es",
+      "width": 1024,
+      "page": false,
+      "sections": []
+    },
+    {
+      "path": "/es",
+      "width": 1440,
+      "page": false,
+      "sections": []
+    }
+  ],
+  "errors": [],
+  "notFound": [
+    {
+      "path": "/missing-page",
+      "status": 404,
+      "robots": [
+        "index, follow",
+        "noindex"
+      ],
+      "violations": []
+    },
+    {
+      "path": "/es/ruta-inexistente",
+      "status": 404,
+      "robots": [
+        "index, follow",
+        "noindex"
+      ],
+      "violations": []
+    },
+    {
+      "path": "/es/otra/ruta",
+      "status": 404,
+      "robots": [
+        "index, follow",
+        "noindex"
+      ],
+      "violations": []
+    }
+  ],
+  "external": [
+    {
+      "url": "https://github.com/WGPQ/",
+      "status": 200,
+      "finalUrl": "https://github.com/WGPQ/"
+    },
+    {
+      "url": "https://www.linkedin.com/in/william-puma-dev/",
+      "status": 999,
+      "finalUrl": "https://www.linkedin.com/in/william-puma-dev"
+    },
+    {
+      "url": "https://webdev.sportyeah.com/",
+      "status": 200,
+      "finalUrl": "https://webdev.sportyeah.com/"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.sportyeah.sportyeah_mobile_app&pcampaignid=web_share",
+      "status": 200,
+      "finalUrl": "https://play.google.com/store/apps/details?id=com.sportyeah.sportyeah_mobile_app&pcampaignid=web_share"
+    },
+    {
+      "url": "https://apps.apple.com/ec/app/borondo/id6738840458",
+      "status": 200,
+      "finalUrl": "https://apps.apple.com/ec/app/borondo/id6738840458"
+    }
+  ],
+  "enSEO": {
+    "title": "William Puma | Software Engineer - Web & Mobile",
+    "canonical": "https://williampuma.dev/",
+    "alternates": [
+      [
+        "en",
+        "https://williampuma.dev/"
+      ],
+      [
+        "es",
+        "https://williampuma.dev/es"
+      ],
+      [
+        "x-default",
+        "https://williampuma.dev/"
+      ]
+    ],
+    "og": [
+      [
+        "og:image",
+        "https://williampuma.dev/images/logo-social.jpg"
+      ],
+      [
+        "og:image:secure_url",
+        "https://williampuma.dev/images/logo-social.jpg"
+      ],
+      [
+        "og:image:type",
+        "image/jpeg"
+      ],
+      [
+        "og:image:width",
+        "800"
+      ],
+      [
+        "og:image:height",
+        "800"
+      ],
+      [
+        "og:image:alt",
+        "William Puma — W logo"
+      ]
+    ],
+    "twitter": "https://williampuma.dev/images/logo-social.jpg",
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://williampuma.dev/#person",
+        "name": "William Puma",
+        "jobTitle": "Software Engineer",
+        "url": "https://williampuma.dev",
+        "image": "https://williampuma.dev/images/william.jpg",
+        "knowsAbout": [
+          "Flutter",
+          "React",
+          "Angular",
+          "TypeScript",
+          "Web development",
+          "Mobile development"
+        ],
+        "sameAs": [
+          "https://github.com/WGPQ/",
+          "https://www.linkedin.com/in/william-puma-dev/"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://williampuma.dev/#website",
+        "name": "William Puma",
+        "url": "https://williampuma.dev/",
+        "publisher": {
+          "@id": "https://williampuma.dev/#person"
+        },
+        "inLanguage": [
+          "en",
+          "es"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "@id": "https://williampuma.dev#webpage",
+        "url": "https://williampuma.dev",
+        "name": "William Puma | Software Engineer - Web & Mobile",
+        "inLanguage": "en",
+        "isPartOf": {
+          "@id": "https://williampuma.dev/#website"
+        },
+        "mainEntity": {
+          "@id": "https://williampuma.dev/#person"
+        }
+      }
+    ]
+  },
+  "esSEO": {
+    "title": "William Puma | Ingeniero de Software - Web & Mobile",
+    "canonical": "https://williampuma.dev/es",
+    "alternates": [
+      [
+        "en",
+        "https://williampuma.dev/"
+      ],
+      [
+        "es",
+        "https://williampuma.dev/es"
+      ],
+      [
+        "x-default",
+        "https://williampuma.dev/"
+      ]
+    ],
+    "og": [
+      [
+        "og:image",
+        "https://williampuma.dev/images/logo-social.jpg"
+      ],
+      [
+        "og:image:secure_url",
+        "https://williampuma.dev/images/logo-social.jpg"
+      ],
+      [
+        "og:image:type",
+        "image/jpeg"
+      ],
+      [
+        "og:image:width",
+        "800"
+      ],
+      [
+        "og:image:height",
+        "800"
+      ],
+      [
+        "og:image:alt",
+        "William Puma — Logo W"
+      ]
+    ],
+    "twitter": "https://williampuma.dev/images/logo-social.jpg",
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://williampuma.dev/#person",
+        "name": "William Puma",
+        "jobTitle": "Software Engineer",
+        "url": "https://williampuma.dev",
+        "image": "https://williampuma.dev/images/william.jpg",
+        "knowsAbout": [
+          "Flutter",
+          "React",
+          "Angular",
+          "TypeScript",
+          "Web development",
+          "Mobile development"
+        ],
+        "sameAs": [
+          "https://github.com/WGPQ/",
+          "https://www.linkedin.com/in/william-puma-dev/"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://williampuma.dev/#website",
+        "name": "William Puma",
+        "url": "https://williampuma.dev/",
+        "publisher": {
+          "@id": "https://williampuma.dev/#person"
+        },
+        "inLanguage": [
+          "en",
+          "es"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "@id": "https://williampuma.dev/es#webpage",
+        "url": "https://williampuma.dev/es",
+        "name": "William Puma | Ingeniero de Software - Web & Mobile",
+        "inLanguage": "es",
+        "isPartOf": {
+          "@id": "https://williampuma.dev/#website"
+        },
+        "mainEntity": {
+          "@id": "https://williampuma.dev/#person"
+        }
+      }
+    ]
+  }
+}
