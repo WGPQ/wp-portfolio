@@ -42,3 +42,13 @@ Para una siguiente revisión: validar con dispositivos reales y lector de pantal
 ## Corrección posterior de fechas
 
 El usuario confirmó que el período de TRECE SOFTWARE — Borondo fue mayo de 2024 – abril de 2025. Se corrigió en ambos diccionarios; esta confirmación prevalece sobre el período indicado en el CV y el texto inicial. Las capturas de esta auditoría son anteriores a esta corrección.
+
+## Actualización de contenido profesional (18 de noviembre de 2026)
+
+El usuario confirmó explícitamente que su colaboración con Simplified Practice finalizó en noviembre de 2026. Se actualizó el período a marzo de 2022 – noviembre de 2026 en EN/ES, conservando cargo, responsabilidades y etapas. Sportyeah / Digital Arena aparece primero como experiencia actual desde agosto de 2025. Se verificó Borondo: mayo de 2024 – abril de 2025. Las demás experiencias no cambiaron.
+
+Archivos de aplicación modificados: `src/locales/en.ts`, `src/locales/es.ts`, `src/app/(en)/layout.tsx`, `src/app/(es)/es/layout.tsx` y `src/components/JsonLd.tsx`. El resumen destaca frontend con React/TypeScript, Flutter, backend, APIs, pagos, CRM, mapas, geolocalización y migración de datos, respaldados por las experiencias existentes. El contacto explicita los tres roles senior buscados. Metadata, Open Graph, Twitter y ProfilePage comparten el título «William Puma | Senior Software Engineer | React, TypeScript & Flutter». En el hero se conserva el cargo y se priorizan React/TypeScript en la línea de tecnologías existente para mantener la composición visual.
+
+Validación de esta actualización: `npm run lint`, `npm run typecheck` y `npm run build` (con postbuild) pasaron. Se comprobó el HTML de producción de ambas rutas: orden, fechas, ausencia del período abierto de Simplified Practice y coherencia de metadatos y JSON-LD. La comparación automatizada contra HEAD confirmó que cargos, responsabilidades, etapas, proyectos y habilidades permanecen intactos. No se modificaron componentes visuales, CSS, navegación, recursos ni dependencias. No se ejecutó una nueva prueba visual en navegador; las capturas e informes previos corresponden a sus auditorías originales.
+
+Trabajo local, sin publicación. Los PDF públicos se conservaron conforme a la indicación previamente documentada de esperar el CV definitivo; no se sincronizaron con esta actualización. Los informes históricos de auditoría se preservan como evidencia, no como fuentes de contenido actuales.

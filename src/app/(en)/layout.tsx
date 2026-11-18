@@ -3,12 +3,12 @@ import "../globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://williampuma.dev"),
-  title: "William Puma | Senior Software Engineer | Full-Stack & Mobile",
-  description: "Senior Software Engineer specializing in Flutter, React, NestJS, and scalable web and mobile applications. Technical leadership, software architecture, and end-to-end product development.",
+  title: "William Puma | Senior Software Engineer | React, TypeScript & Flutter",
+  description: "Senior Software Engineer specializing in React, TypeScript, Flutter, and NestJS. Frontend, full-stack and mobile development, software architecture, and technical leadership.",
   alternates: { canonical: "/", languages: { en: "/", es: "/es", "x-default": "/" } },
   authors: [{ name: "William Puma", url: "https://williampuma.dev" }],
-  openGraph: { type: "website", url: "/", title: "William Puma | Senior Software Engineer | Full-Stack & Mobile", description: "Senior Software Engineer specializing in Flutter, React, NestJS, and scalable web and mobile applications. Technical leadership, software architecture, and end-to-end product development.", siteName: "William Puma", locale: "en_US", alternateLocale: ["es_ES"], images: [{ url: "https://williampuma.dev/images/logo-social.jpg", secureUrl: "https://williampuma.dev/images/logo-social.jpg", type: "image/jpeg", width: 800, height: 800, alt: "William Puma — W logo" }] },
-  twitter: { card: "summary_large_image", title: "William Puma | Senior Software Engineer | Full-Stack & Mobile", description: "Senior Software Engineer specializing in Flutter, React, NestJS, and scalable web and mobile applications. Technical leadership, software architecture, and end-to-end product development.", images: ["https://williampuma.dev/images/logo-social.jpg"] },
+  openGraph: { type: "website", url: "/", title: "William Puma | Senior Software Engineer | React, TypeScript & Flutter", description: "Senior Software Engineer specializing in React, TypeScript, Flutter, and NestJS. Frontend, full-stack and mobile development, software architecture, and technical leadership.", siteName: "William Puma", locale: "en_US", alternateLocale: ["es_ES"], images: [{ url: "https://williampuma.dev/images/logo-social.jpg", secureUrl: "https://williampuma.dev/images/logo-social.jpg", type: "image/jpeg", width: 800, height: 800, alt: "William Puma — W logo" }] },
+  twitter: { card: "summary_large_image", title: "William Puma | Senior Software Engineer | React, TypeScript & Flutter", description: "Senior Software Engineer specializing in React, TypeScript, Flutter, and NestJS. Frontend, full-stack and mobile development, software architecture, and technical leadership.", images: ["https://williampuma.dev/images/logo-social.jpg"] },
   icons: { icon: "/favicon.ico" },
   robots: { index: true, follow: true },
 };

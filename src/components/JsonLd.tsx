@@ -28,7 +28,7 @@ export default function JsonLd({ locale }: { locale: Locale }) {
       "@type": "ProfilePage",
       "@id": `${pageUrl}#webpage`,
       url: pageUrl,
-      name: locale === "es" ? "William Puma | Senior Software Engineer | Full-Stack y Mobile" : "William Puma | Senior Software Engineer | Full-Stack & Mobile",
+      name: "William Puma | Senior Software Engineer | React, TypeScript & Flutter",
       inLanguage: locale,
       isPartOf: { "@id": "https://williampuma.dev/#website" },
       mainEntity: { "@id": "https://williampuma.dev/#person" },

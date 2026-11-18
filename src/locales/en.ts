@@ -13,7 +13,7 @@ export const en = {
     "availability": "Available for opportunities",
     "role": "Senior Software Engineer",
     "description": "I build and evolve software products from architecture to production, combining full-stack and mobile engineering with technical leadership, scalability, and product thinking.",
-    "technologies": "Flutter · React · TypeScript · NestJS",
+    "technologies": "React · TypeScript · Flutter · NestJS",
     "viewProjects": "View Projects",
     "subtitle": "Full-Stack & Mobile | Technical Leadership | Software Architecture"
   },
@@ -22,8 +22,8 @@ export const en = {
     "title": "About me",
     "paragraphs": [
       "Senior Software Engineer with 5+ years of experience building and evolving web, mobile, and backend applications for international products.",
-      "My background spans Flutter, React, NestJS, and database-driven systems, with hands-on experience in architectural decision-making, technical leadership, and end-to-end product delivery.",
-      "I have built mobile applications from scratch, contributed to complex multi-tenant CRM platforms, and implemented real-time communications, payment integrations, and legacy system migration workflows.",
+      "My background combines React and TypeScript frontend development with Flutter mobile engineering, NestJS backend services, and database-driven systems, supported by software architecture and technical leadership experience.",
+      "I have built mobile applications from scratch, evolved multi-tenant CRM platforms, and integrated APIs, payment gateways, maps, geolocation, and real-time communications, alongside legacy data migration workflows.",
       "I work from requirements analysis and technical planning through implementation, release, and stabilization, focusing on maintainable solutions that serve business needs."
     ]
   },
@@ -32,9 +32,19 @@ export const en = {
     "title": "Professional Experience",
     "entries": [
       {
+        "company": "SPORTYEAH / DIGITAL ARENA",
+        "role": "Mobile Software Engineer | Flutter",
+        "period": "Aug 2025 – Present",
+        "location": "Remote · Colombia",
+        "responsibilities": [
+          "Evolve an existing Flutter application with layered architecture and decoupled modules, working within its established architectural decisions.",
+          "Develop tournaments, matches, profiles, feed, and creative content features; implement interface redesigns and navigation flows while maintaining product consistency and quality."
+        ]
+      },
+      {
         "company": "SIMPLIFIED PRACTICE",
         "role": "Software Engineer | Full-Stack & Technical Leadership",
-        "period": "Mar 2022 – Present",
+        "period": "Mar 2022 – Nov 2026",
         "location": "Remote · United States",
         "responsibilities": [
           "Progressed from mobile engineering into frontend technical leadership and backend responsibilities across the product lifecycle."
@@ -63,16 +73,6 @@ export const en = {
               "Developed legacy data transformation and migration workflows, including reusable migration tools."
             ]
           }
-        ]
-      },
-      {
-        "company": "SPORTYEAH",
-        "role": "Mobile Software Engineer | Flutter",
-        "period": "Aug 2025 – Present",
-        "location": "Remote · Colombia",
-        "responsibilities": [
-          "Evolve an existing Flutter application with layered architecture and decoupled modules, working within its established architectural decisions.",
-          "Develop tournaments, matches, profiles, feed, and creative content features; implement interface redesigns and navigation flows while maintaining product consistency and quality."
         ]
       },
       {
@@ -272,7 +272,7 @@ export const en = {
   "contact": {
     "eyebrow": "Contact",
     "title": "Let's build something great.",
-    "description": "I am open to opportunities and collaborations in full-stack and mobile engineering, software architecture, and technical leadership.",
+    "description": "I am open to Senior Software Engineer, Senior Frontend Developer, and Senior Fullstack Developer opportunities, bringing experience in web and mobile applications, software architecture, and technical leadership.",
     "getInTouch": "Get in touch",
     "whatsapp": "Contact me on WhatsApp",
     "whatsappMessage": "Hello William, I visited your portfolio and I'd like to get in touch with you.",
